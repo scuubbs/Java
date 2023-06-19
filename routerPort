@@ -1,0 +1,7 @@
+public class routerPort(){
+  int num = 0; // interface number
+  String ipAddr = "127.0.0.1";
+  String subnetMask = "255.255.255.0"
+  boolean up = True; // Port status up
+  boolean noShut = True;
+}
