@@ -1,0 +1,6 @@
+public class switchPort(){
+  int num;
+  boolean up = True;
+  int vLan = 0;
+  
+  
