@@ -1,6 +1,10 @@
 public class switchPort(){
-  int num;
-  boolean up = True;
-  int vLan = 0;
+  int num = 0; // interface number
+  boolean up = True; // Port status up
+  boolean noShut = True; 
+  String mode = "trunk"; // Mode Trunk (carries all Vlans. Vlan tags), or Access (carries only one Vlan, ignores Vlan tags).. 
+  int duplex = 1; // Duplex mode 0=half, 1=full, 
+  int vLan = 0; // Vlan if in access mode.
+  
   
   
